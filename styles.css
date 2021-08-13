@@ -1,0 +1,104 @@
+@font-face {
+    font-family: "Roboto Slab";
+    src: url("fonts/RobotoSlab-Bold.ttf")
+}
+
+body {
+    background-color: #000;
+    font-family:'Roboto Slab', serif;
+}
+
+#main {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #00ffff;
+    margin-bottom: 130px;
+}
+
+h1, p{
+    text-align: center;
+}
+
+h1 {
+    margin-top: 80px;
+    color: #00ffff;
+    font-weight: 800;
+    font-size: 3em;
+    margin-bottom: 0px;
+}
+p {
+    margin-bottom: 60px;
+    color: #fff;
+    font-weight: 600;
+}
+
+#clearboth {
+    clear: both;
+}
+
+img {
+    width: 400px;
+    height: 400px;
+    float: left;
+}
+
+#top-left {
+    position: relative;
+    bottom: 40px;
+    right: 30px;
+    box-shadow: 0px 15px 20px #000;
+}
+
+#top-middle {
+    position: relative;
+    bottom: 20px;
+    box-shadow: 0px 15px 20px #000;
+}
+
+#top-right {
+    position: relative;
+    top: 40px;
+    right: 30px;
+    box-shadow: 0px 15px 20px #000;
+}
+
+#middle-left {
+    position: relative;
+    right: 30px;
+    bottom: 10px;
+    box-shadow: 0px 15px 20px #000;
+}
+
+#middle {
+    position: relative;
+    top: 10px;
+    box-shadow: 0px 15px 20px #000;
+}
+
+#middle-right{
+    position: relative;
+    left: 30px;
+    bottom: 10px;
+    box-shadow: 0px 15px 20px #000;
+}
+
+#bottom-left {
+    position: relative;
+    bottom: 40px;
+    left: 30px;
+    box-shadow: 0px 15px 20px #000;
+}
+
+#bottom-middle {
+    position: relative;
+    top: 40px;
+    box-shadow: 0px 15px 20px #000;
+}
+
+#bottom-right {
+    position: relative;
+    bottom: 40px;
+    right: 30px;
+    box-shadow: 0px 15px 20px #000;
+} 
